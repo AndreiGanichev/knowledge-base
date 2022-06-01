@@ -31,5 +31,5 @@ Kafka предоставляет функционал:
 1. [Kafka documentation](https://kafka.apache.org/documentation/)
 
 Ссылки:
-1. [[Kafka design]]
+1. [[Kafka design.md]]
 
