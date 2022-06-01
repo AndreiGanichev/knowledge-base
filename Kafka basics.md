@@ -30,11 +30,12 @@ Kafka предоставляет функционал:
 
 1. Kafka гарантирует, что consumer партиции будет получать сообщения в том порядке, в котором они были в нее опубликованы
 
+---
+
 ### Источники:
 
 1. [Kafka documentation](https://kafka.apache.org/documentation/)
 
 ### Ссылки:
 
-1. [[Kafka design]]
-
+1. #[[Kafka basics]]

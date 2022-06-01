@@ -27,6 +27,8 @@ tags:
 
 Поэтому majority стоит использовать для наиболее критичных данных, например метаданных кластера. Именно так и поступает ZooKeeper, когда реплицирует свои данные.
 
+---
+
 ## Источники
 
 1. [Distributed Consensus Reloaded: Apache ZooKeeper and Replication in Apache Kafka](https://www.confluent.io/blog/distributed-consensus-reloaded-apache-zookeeper-and-replication-in-kafka)

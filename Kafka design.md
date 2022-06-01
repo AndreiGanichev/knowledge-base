@@ -114,7 +114,13 @@ Log compaction может быть необходим, когда хочется
 Отдельная история с записями об удалении значения по ключу(*tombestones*). У них свой цикл компакшена - время после которого их можно удалять настраивается отдельно.
 Compaction производится в фоновом процессе и не должен мешать чтению консьюмеров. Плюс можно ограничить ресурсы, которые потребляет этот процесс.
 
+---
+
 ## Источники
 
 1. [Distributed Consensus Reloaded: Apache ZooKeeper and Replication in Apache Kafka](https://www.confluent.io/blog/distributed-consensus-reloaded-apache-zookeeper-and-replication-in-kafka)
 1. [Kafka documentation](https://kafka.apache.org/documentation/#design)
+
+### Ссылки:
+
+1. [[Kafka design]]#
