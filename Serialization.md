@@ -41,6 +41,7 @@ String
 
 ### Источники:
 1. Database Internals. Petrov. Oreily, 2019. Chapter 3. File formats
+2. (Stackoverflow)[https://stackoverflow.com/a/3316779/6194366]
 
 ### Ссылки
 1. Джоэл Спольски. Джоэл о программировании. Символ-Плюс, 2006. Глава 2. Обращаясь к основам.
