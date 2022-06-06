@@ -1,4 +1,0 @@
-
-[[Architecture]]#
-[[Computer science]]#
-[[Security]]#
