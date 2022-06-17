@@ -47,5 +47,5 @@ arbitrary --*TLS*--> fair-loss --*retry+deduplication*--> reliable
 1. (Kleppmann. Distributed Systems 2.4: Fault tolerance)[https://youtu.be/43TDfUNsM3E]
 
 ### Ссылки:
-1. [[Failure detector]]#
+1. [[Failure detection]]#
 1. [[Replication]]
