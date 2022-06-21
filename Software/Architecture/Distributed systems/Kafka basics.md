@@ -39,3 +39,4 @@ Kafka предоставляет функционал:
 ### Ссылки:
 
 1. [[Kafka design]]#
+2. [[Partitioning]]
