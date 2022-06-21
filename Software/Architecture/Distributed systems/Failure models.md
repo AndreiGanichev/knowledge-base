@@ -49,3 +49,5 @@ arbitrary --*TLS*--> fair-loss --*retry+deduplication*--> reliable
 ### Ссылки:
 1. [[Failure detection]]#
 1. [[Replication]]
+1. [[Two generals problem]]
+1. [[Byzantine generals problem]]
