@@ -23,6 +23,6 @@ tags:
 1. (Kleppmann. Distributed Systems 5.2: System models)[https://youtu.be/uNxl3BFcKSA]
 
 ### Ссылки:
-1. (Закон Мерфи)[https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%9C%D0%B5%D1%80%D1%84%D0%B8]
+1. [Закон Мерфи](https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%9C%D0%B5%D1%80%D1%84%D0%B8)
 1. [[Failure models]]
 2. [[Consistency models]]
