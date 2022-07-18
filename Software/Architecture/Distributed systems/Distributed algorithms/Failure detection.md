@@ -58,6 +58,6 @@ Failure detection алгоритм сам является распределе�
 
 ### Ссылки:
 1. [[Cascade failure]]
-1. [[Distributed algorithms]]
+1. [[Basics]]
 1. [[Failure detection allow consensus in async system]]
 1. [[Gossip dissemination]]

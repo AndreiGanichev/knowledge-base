@@ -23,4 +23,4 @@ tags:
 1. [[Consensus]]
 1. [[Failure detection]]
 1. [[FLP impossibility]]
-1. [[Distributed algorithms]]
+1. [[Basics]]

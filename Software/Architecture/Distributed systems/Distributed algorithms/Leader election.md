@@ -66,5 +66,5 @@ date: 2022-07-04
 1. Database Internals. Petrov. Oreily, 2019. Chapter 10. Leader election
 
 ### Ссылки:
-1. [[Distributed algorithms]]
+1. #[[Basics]]
 1. [[Kafka design]]

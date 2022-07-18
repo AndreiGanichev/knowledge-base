@@ -8,4 +8,4 @@ date: 2022-07-07
 ---
 
 ### Ссылки:
-1. [[Distributed algorithms]]
+1. [[Basics]]
