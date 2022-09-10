@@ -8,4 +8,4 @@ date: 2022-07-07
 ---
 
 ### Ссылки:
-1. [[Basics]]
+1. [[Software/Architecture/Software architecture/DDD/Basics]]
