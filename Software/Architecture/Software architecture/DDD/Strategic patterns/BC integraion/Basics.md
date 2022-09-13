@@ -26,3 +26,4 @@ tags:
 ### Ссылки:
 1. [[Cooperation]]#
 1. [[Customer-supplier]]#
+1. [[Separate ways]]#

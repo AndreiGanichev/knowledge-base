@@ -1,7 +1,7 @@
 ---
 date: 2022-09-13
 tags:
-    - tag
+    - design pattern
 ---
 
 ### Условия
