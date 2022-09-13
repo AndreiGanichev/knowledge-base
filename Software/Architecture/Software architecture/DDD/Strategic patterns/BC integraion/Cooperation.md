@@ -42,7 +42,7 @@ SK - это *пересечение моделей из разных BC*. SK м�
 ---
 
 ### Источники:
-1. link
+1. Learning DDD. Chapter 4. Integrating bounded contexts. Vladik Khononov
 
 ### Ссылки:
 1. link
