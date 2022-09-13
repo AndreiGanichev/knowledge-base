@@ -1,3 +1,3 @@
 Оркестрирует вызовы доменной модели для выполнения пользовательского запроса
 
-Реализует Transaction script patter
+Реализует Transaction script pattern
