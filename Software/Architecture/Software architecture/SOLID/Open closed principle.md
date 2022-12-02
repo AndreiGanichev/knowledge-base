@@ -1,10 +1,10 @@
 ---
-date: 2022-05-28
+date: 2022-12-01
 tags:
     - tag
 ---
 
-note
+
 
 ---
 
@@ -12,4 +12,4 @@ note
 1. link
 
 ### Ссылки:
-1. link
+1. [[Abstraction vs complexity]]
