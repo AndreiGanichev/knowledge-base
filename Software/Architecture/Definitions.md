@@ -10,7 +10,7 @@ tags:
 
 > So, this makes it hard to tell people how to describe their architecture. **“Tell us what is important.”** Architecture is about the important stuff. Whatever that is. Ralf Johnson
 
-> For years, many smart developers recognized that some parts of their systems were harder to modify than others. That’s why software architecture is defined as the **“parts hard to change later.”** This convenient definition partitioned the things you can modify without much effort from truly difficult changes. Unfortunately, this definition also evolved into a blind spot when thinking about architecture: Developers’ assumption that change is difficult becomes a self-fulfilling prophecy. Ford, Parson, Kua.Building evolutionary architectures.
+> For years, many smart developers recognized that some parts of their systems were harder to modify than others. That’s why software architecture is defined as the **“parts hard to change later.”** This convenient definition partitioned the things you can modify without much effort from truly difficult changes. Unfortunately, this definition also evolved into a blind spot when thinking about architecture: Developers’ assumption that change is difficult becomes a self-fulfilling prophecy. Ford, Parson, Kua. Building evolutionary architectures.
 
 > Наибольшее количество вариантов обеспечивает энтропия. Архитектура противостоит ей. Иван Закревский. [RASA chat](https://t.me/ru_arc_chat/3231)
 

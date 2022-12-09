@@ -8,6 +8,8 @@ tags:
 
 > When I see an architect like this, the most noticeable part of the work is the intense collaboration. In the morning, the **architect programs with a developer, trying to harvest some common locking code**. In the afternoon, the architect participates in a requirements session, helping explain to the requirements people the technical consequences of some of their ideas in nontechnical terms...In many ways, the most important activity of *Architectus Oryzus* is to **mentor the development team**, to raise their level so that they can take on more complex issues.Martin Fawler. [Who needs architect](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf)
 
+> Knowing how best to respond to change while keeping on your feet will be an essential skill for any software leader. Ford, Parson, Kua. Building evolutionary architectures.
+
 ---
 
 ### Источники:
