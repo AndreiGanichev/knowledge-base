@@ -8,10 +8,6 @@ tags:
 
 > Decoupling comes with its own costs, both the cost of the decoupling itself and the future costs of unanticipated changes. **The more perfectly a design is adapted to one set of changes, the more likely it is to be blind-sided by novel changes**. Kent Beck [Monolith -> Services: Theory & Practice](https://medium.com/@kentbeck_7670/monolith-services-theory-practice-617e4546a879)
 
-> If ease of change is a bedrock principle of the arcitecture, then change is no longer difficult. Ford, Parson, Kua. Building evolutionary architectures.
-
-> I don’t think the real problem will be solved by making better techniques for separating aspects. **We don’t know what should be the aspects that need separating, and we don’t know when it is worth separating them and when it is not**. Software is not limited by physics, like buildings are. It is limited by imagination, by design, by organization. Ralf Johnson. [Who needs architect](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf)
-
 ---
 
 ### Источники:
