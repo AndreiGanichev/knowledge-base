@@ -21,3 +21,4 @@ tags:
 
 ### Ссылки:
 1. [[Complexity]]
+1. [[Language and Arch constraints]]
