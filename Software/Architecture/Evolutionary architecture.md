@@ -10,7 +10,7 @@ An evolutionary architecture consists of three primary aspects: incremental chan
 
 Требование incremental касаются изменений:
 1. при разработке(*development*). Архитектура должна позволять вносить небольшие изменения
-1. при поставке(*deployment*). Архитектура должна позволять выполнять небольшие поставки
+1. при поставке(*deployment*). Архитектура должна позволять выполнять небольшие поставки. Это возможность во многом обеспечивают практики *Continious Delivery*
 
 ### Fitness functions
 
@@ -19,7 +19,7 @@ An evolutionary architecture consists of three primary aspects: incremental chan
 ---
 
 ### Источники:
-1. link
+1. Ford, Parson, Kua. Building evolutionary architectures.
 
 ### Ссылки:
-1. link
+1. [[Continious Delivery]]
