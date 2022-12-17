@@ -36,4 +36,5 @@ tags:
 
 ### Ссылки:
 1. [[Subdomain]]
+1. [[Domain event]]
 1. Versioning in event sourced systems. Greg Young
