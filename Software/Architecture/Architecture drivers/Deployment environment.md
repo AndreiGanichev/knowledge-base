@@ -7,7 +7,7 @@ tags:
 ### Примеры влияния среды развертывания на архитектуру
 1. [[Containerization]]
 1. [[Enterprise service bus]]
-
+1. [[Microservices prerequisites]]
 
 
 ---
