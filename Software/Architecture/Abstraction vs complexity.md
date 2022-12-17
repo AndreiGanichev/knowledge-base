@@ -8,6 +8,10 @@ tags:
 
 > Decoupling comes with its own costs, both the cost of the decoupling itself and the future costs of unanticipated changes. **The more perfectly a design is adapted to one set of changes, the more likely it is to be blind-sided by novel changes**. Kent Beck [Monolith -> Services: Theory & Practice](https://medium.com/@kentbeck_7670/monolith-services-theory-practice-617e4546a879)
 
+> **From a domain perspective**, a layered architecture has zero evolvability. In highly coupled architectures, change is difficult because coupling between the parts developers want to change is high. Ford, Parson, Kua. Building evolutionary architectures.
+
+При этом слоеная архитектура облегчает эволюцию технических аспектов. В этом случае изменения касаются только конкретного слоя.
+
 > Объектно-ориентированное решение на основе полиморфизма(*прим. рисование разных фигур*) позволяет легко расширять функциональность лишь в определенном направлении, но не является открытым к любым изменениям. Задача добавления новой операции в существующую иерархию типов решается с помощью паттерна [[Visitor]](*прим. реализация сложнее, чем наследование + полиморфизм*)...Паттерн Visitor показывает функциональный подход к расширяемости семейства типов. Тепляков. Паттерны проектирования на платформе .NET. Часть 4.
 
 ---
