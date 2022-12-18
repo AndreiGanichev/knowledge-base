@@ -4,7 +4,7 @@ tags:
     - tag
 ---
 
-note
+> Complexity is what makes software hard to change. That, and duplication. Ralf Johnson. [Who needs architect](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf)
 
 ---
 
@@ -12,4 +12,4 @@ note
 1. [Gregor Hohpe. Here’s why enterprise IT is so complex](https://architectelevator.com/architecture/it-complexity/)
 
 ### Ссылки:
-1. link
+1. [[Change]]

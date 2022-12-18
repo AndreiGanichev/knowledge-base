@@ -8,7 +8,7 @@ tags:
 
 1. в качестве абстракции
 1. для реализации полиморфизма
-1. для реализации [[Dependency inversion]]
+1. для реализации [[Dependency inversion principle]]
 
 ---
 

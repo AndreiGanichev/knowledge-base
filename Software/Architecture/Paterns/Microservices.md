@@ -18,6 +18,8 @@ tags:
 
 > The goal in microservices isn’t to see how small developers can make each service but rather to create a useful bounded context.
 
+> The physical bounded context in microservices correlates exactly to our concept of architectural quantum — it is a physically decoupled deployable component with high functional cohesion.
+
 ### Coupling
 
 > Microservices architectures typically have two kinds of coupling: **integration** and **service template**. Integration coupling is obvious — services need to call each other to pass information. The other type of coupling, service templates, prevents harmful duplication...each service needs to include monitoring, logging, authentication/authorization, and other “plumbing” capabilities. If left to the responsibility of each service team, ensuring compliance and lifecycle management like upgrades will likely suffer. By defining the appropriate technical architecture coupling points in service templates, an infrastructure team can manage that coupling while freeing individual service teams from worrying about it. 
@@ -31,3 +33,4 @@ tags:
 ### Ссылки:
 1. [[Practices]]
 1. [[Duplication vs Coupling]]
+1. [[Arch Quantum]]
