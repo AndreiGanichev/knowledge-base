@@ -24,7 +24,7 @@ DDD призывает учитывать бизнес контекст при �
 ---
 
 ### Источники:
-1. Ford, Parson, Kua. Building evolutionary architectures.
+1. [[Evolutionary architectures]]
 
 ### Ссылки:
 1. [[Fitness functions]]
