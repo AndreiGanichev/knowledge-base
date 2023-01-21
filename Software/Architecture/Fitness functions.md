@@ -23,7 +23,7 @@ tags:
 ---
 
 ### Источники:
-1. Ford, Parson, Kua. Building evolutionary architectures.
+1. [[Evolutionary architectures book]]
 
 ### Ссылки:
 1. [[Architect]]
