@@ -1,15 +1,15 @@
 ---
-date: 2023-01-26
+date: 2022-01-24
 tags:
     - tag
 ---
 
-
+note
 
 ---
 
 ### Источники:
-1.
+1. link
 
 ### Ссылки:
-1. link
+1. https://jsonapi.org/

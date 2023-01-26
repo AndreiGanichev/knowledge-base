@@ -15,7 +15,11 @@ tags:
    2. [[Event driven readability]]
 1. добавляя абстракцию мы решаем вопрос изменчивост только в одном направлении(в одной плоскости)
 
-> Объектно-ориентированное решение на основе полиморфизма(_прим. рисование разных фигур_) позволяет легко расширять функциональность лишь в определенном направлении, но не является открытым к любым изменениям. Задача добавления новой операции в существующую иерархию типов решается с помощью паттерна [[Visitor]](_прим. реализация сложнее, чем на основе полиморфизма_)...Паттерн Visitor показывает функциональный подход к расширяемости семейства типов. Тепляков. Паттерны проектирования на платформе .NET. Часть 4.
+> Объектно-ориентированное решение на основе полиморфизма(_прим. рисование разных фигур_) позволяет легко расширять функциональность лишь в определенном направлении, но не является открытым к любым изменениям. Задача добавления новой операции в существующую иерархию типов решается с помощью паттерна [[Visitor]](_прим. реализация сложнее, чем на основе полиморфизма_)...Паттерн Visitor показывает функциональный подход к расширяемости семейства типов. [[Паттерны проектирования на платформе .NET]]. Часть 4.
+
+> No one perspective on architecture is “correct,” but rather a reflection on the goals developers build into their projects. If the focus is entirely on technical architecture, then making changes across that dimension is easier. However, if the domain perspective is ignored, then evolving across that dimension is no better than the Big Ball of Mud. [[Building evolutionary architectures book]]
+
+> First make the change easy, then make the easy change. Kent Beck
 
 ---
 

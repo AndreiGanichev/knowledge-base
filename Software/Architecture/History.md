@@ -19,3 +19,5 @@ tags:
 ### Ссылки:
 1. [Agile against Artichecture](https://t.me/emacsway_log/156)
 1. [[Evolutionary architecture]]
+1. [[Microservices prerequisites]]#
+1. [[Containerization]]#

@@ -14,3 +14,5 @@ The Continuous Delivery and DevOps movements added a new factor into the dynamic
 
 ### Ссылки:
 1. [[Enterprise Service Bus]]
+1. [[History]]
+1. #[[Microservices]]

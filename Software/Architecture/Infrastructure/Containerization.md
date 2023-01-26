@@ -9,7 +9,7 @@ tags:
 ---
 
 ### Источники:
-1. 1. Ford, Parson, Kua. Building evolutionary architectures. Software Architecture
+1. [[Building evolutionary architectures book]]. Software Architecture
 
 
 ### Ссылки:

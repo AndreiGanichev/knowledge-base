@@ -23,7 +23,7 @@ tags:
 ---
 
 ### Источники:
-1. [[Evolutionary architectures book]]
+1. [[Building evolutionary architectures book]]
 
 ### Ссылки:
 1. [[Architect]]
