@@ -4,6 +4,9 @@ tags:
     - tag
 ---
 
+> To build an evolvable system, architects must think about how the system might evolve across all the important dimensions.
+
+
 An evolutionary architecture consists of three primary aspects: incremental change, fitness functions, and appropriate coupling.
 
 ### Incremental change
@@ -30,4 +33,5 @@ An evolutionary architecture consists of three primary aspects: incremental chan
 
 ### Ссылки:
 1. [[Continious Delivery]]
+1. [[Architecture dimensions]]
 1. [[Architecture quantum]]#
