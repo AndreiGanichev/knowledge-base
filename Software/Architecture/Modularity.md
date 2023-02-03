@@ -12,4 +12,6 @@ tags:
 1. link
 
 ### Ссылки:
-1. link
+1. [[Architecture quantum]]
+1. [[Coupling]]
+1. [[Strateg]]

@@ -14,5 +14,5 @@ tags:
 1. link
 
 ### Ссылки:
-1. [[Definitions]]
+1. [[Architecture definitions]]
 1. Rober Martin. Clean architecture

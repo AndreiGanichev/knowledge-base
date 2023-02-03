@@ -1,11 +1,10 @@
 ---
 date: 2022-06-06
+tags:
+    - reliability
 ---
 
 ## Определения
-
-**Failure** - система как целое не работает
-**Fault** - не работает какая-то часть системы
 
 Faults:
 1. processes
@@ -51,3 +50,4 @@ arbitrary --*TLS*--> fair-loss --*retry+deduplication*--> reliable
 1. [[Replication]]
 1. [[Two generals problem]]
 1. [[Byzantine generals problem]]
+1. #[[Reliability]]

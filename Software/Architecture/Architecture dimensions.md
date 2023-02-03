@@ -9,15 +9,12 @@ tags:
 Помимо функциональных требований, которые должна обеспечивать система, в обычно в архитектуре приложений выделяют другие важные измерения:
 
 1. Technical
-1. Data
+1. [[Evolutionary data]]#
 1. Security
 1. Operational/System
 
 > To build an evolvable system, architects must think about how the system might evolve across all the important dimensions.
 
-### Data
-
-> While data abstractions resist change better than behavior, they must still evolve. Architects must treat data as a primary concern when building an evolutionary architecture.
 
 ---
 
