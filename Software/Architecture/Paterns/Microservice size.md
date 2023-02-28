@@ -4,7 +4,7 @@ tags:
     - tag
 ---
 
-### Как определить границы микросервиса
+## Как определить границы микросервиса
 
 > One of the keys to building evolutionary architectures lies in determining **natural component granularity and coupling** bewteen components to fit the capabilities they want to support via the software architecture.
 
@@ -14,9 +14,23 @@ tags:
 
 > The goal in microservices isn’t to see how small developers can make each service but rather to create a useful bounded context.
 
-> The physical bounded context in microservices correlates exactly to our concept of architectural quantum — it is a physically decoupled deployable component with high functional cohesion.
+> The physical bounded context in microservices correlates exactly to our concept of [[Architecture quantum]] — it is a physically decoupled deployable component with high functional cohesion.
 
 > The operational goal of this architecture is to replace one service with another without disrupting other services...The ability for developers to deploy one service without affecting any other service is one of the defining benefits of this architectural style.
+
+### Слишком большой сервис
+1. создает возможность создания больших (имеющих большой контекст) транзакций
+1. недостаточно используем преимущество независимого деплоя МСов
+
+### Слишком маленький
+1. излишняя оркестрация при выполнении бизнес операций
+1. излишние взаимодействия и зависимости между сервисами
+
+## Точки зрения на размер
+
+1. бизнес функционал (см. [[Subdomain]])
+1. границы транзакций (см.[[Aggregate]])
+1. независимое развертывание. Например, разделяем компоненты, имеющие явно разные релизные циклы. Может быть примером того, что один Bounded context может быть реализован несколькими микросервисами
 
 ---
 

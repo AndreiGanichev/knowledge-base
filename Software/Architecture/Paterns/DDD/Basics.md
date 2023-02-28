@@ -14,6 +14,8 @@ tags:
 
 > DDD is about aligning software design with business domain. Learning DDD. Chapter 3. Managing domain complexity. Vladik Khononov
 
+> Part of choosing an architecture lies in understanding where the problem and physical architecture come together. [[Building evolutionary architectures book]]
+
 Тогда получим ПО, которое будет:
 1. решать реальные бизнес проблемы
 1. получать оптимальное с точки зрения затрат решение

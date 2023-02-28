@@ -29,3 +29,4 @@ tags:
 ### Ссылки:
 1. #[[Evolutionary architecture]]
 1. [[Modularity]]
+1. [[Microservice size]]
