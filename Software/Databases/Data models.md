@@ -1,5 +1,5 @@
 ---
-date: 2023-03-27
+date: 2023-03-01
 tags:
     - tag
 ---
@@ -12,4 +12,4 @@ note
 1. link
 
 ### Ссылки:
-1. #[[Log structured storage]]
+1. link
