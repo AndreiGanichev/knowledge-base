@@ -13,6 +13,6 @@ tags:
 
 ### Ссылки:
 1. [[Abstraction]]
-1. [[Incapsulation]]
+1. [[Encapsulation]]
 1. [[Complexity]]
 1. [[Modularity]]
