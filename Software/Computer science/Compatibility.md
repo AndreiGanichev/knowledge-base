@@ -4,6 +4,8 @@ tags:
     - tag
 ---
 
+# Виды
+
 ## Backward compatibility
 
 > Newer code can read data that was written by older code. [[Designing Data-Intensive Applications book]]. Chapter 4
@@ -14,7 +16,7 @@ tags:
 
 > Older code can read data that was written by newer code.[[Designing Data-Intensive Applications book]]. Chapter 4
 
-## Serialization format
+# Форматы
 
 Требование совместимости в разной степени поддерживается для разных форматов сериализации.
 
