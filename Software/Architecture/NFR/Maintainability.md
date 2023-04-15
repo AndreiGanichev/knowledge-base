@@ -6,7 +6,9 @@ tags:
 
 **Maintainability** харакетризует насколько сложно или легко поддерживать и развивать систему.
 
-## Основные составляющие maintainability
+# Основные составляющие maintainability
+
+## Мартин Клепман [[Designing Data-Intensive Applications book]]
 
 ### Operability
 
@@ -20,10 +22,20 @@ tags:
 
 [[Evolutionary architecture]]
 
+## Сергей Баранов
+
+Сергей в подкасте Между скобок, выпуск [Основы архитектуры ПО. Глава 18 Выбор подходящего стиля архитектуры](https://youtu.be/ES0TRVZxA_Y) выстроил *практики*, появившиеся в разное время, и *преимущества*, которые они дают, в такую цепочку
+
+[[Extremal progremming]], [[Continious Integration]] обеспечили **ускорение написания кода**
+[[DevOps]] обеспечили **ускорение развертывания**
+[[Evolutionary architecture]] обеспечивает **ускорение изменений архитектуры**
+
+
+
 ---
 
 ### Источники:
-1. [[Designing Data-Intensive Applications book]]
+1. 
 
 ### Ссылки:
 1. [[Four golden signals]]

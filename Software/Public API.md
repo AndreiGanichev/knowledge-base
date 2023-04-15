@@ -24,3 +24,4 @@ tags:
 
 ### Ссылки:
 1. [[API product mindset]]
+1. [[API design]]
