@@ -10,7 +10,7 @@ The Continuous Delivery and DevOps movements added a new factor into the dynamic
 ---
 
 ### Источники:
-1. Ford, Parson, Kua. Building evolutionary architectures. Architectural Coupling
+1. [[Building evolutionary architectures book]]. Architectural Coupling chapter.
 
 ### Ссылки:
 1. [[Enterprise Service Bus]]

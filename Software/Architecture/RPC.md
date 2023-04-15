@@ -1,7 +1,7 @@
 ---
 date: 2023-04-10
 tags:
-    - tag
+    - integration pattern
 ---
 
 Это модель, предполагающая, что вызовы удаленных сервисов по сети выглядят как вызовы обычных методов программы в том же процессе. Таким образом обеспечивается [location transparency](https://en.wikipedia.org/wiki/Location_transparency)
@@ -16,7 +16,18 @@ tags:
 1. возможно несоответствеи типов данных языков программирования клиента и удаленного сервиса
 
 
+### Чистая архитектура
+
+Роберт Мартин в книге Чистая архитектура и статьях своего блога называет механизм взаимодействия деталью реализации и указывает, что следует **на уровне архитектуры** абстрагироваться от него.
+
+> If the code of the components can be written so that the communications mechanisms, and process separation mechanisms are irrelevant, then those **mechanisms are details**. And details are never part of an architecture.
+
+Конечно на уровне архитектуры мы должны разделять бизнес логику от инфраструктуры и абстрагироваться от *конкретного* способа реализации. Но полностью обеспечить *location transparency* очень трудно. Об этом [пишет](https://twitter.com/stilkov/status/517982267688632320?s=20) Stefan Tilkov (нашел только твит, но была еще его статья в блоге).
+
+### Leaky abstraction
+
 Получается что не удается полноценно абстрагироваться от способа вызова функции: локально или удаленно. RPC - это [[Leaky abstraction]].
+
 ---
 
 ### Источники:
@@ -24,3 +35,5 @@ tags:
 
 ### Ссылки:
 1. [[Async vs sync]]
+1. [Clean Micro-service Architecture](https://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
+1. [Microservices and Jars](https://blog.cleancoder.com/uncle-bob/2014/09/19/MicroServicesAndJars.html)
