@@ -11,11 +11,19 @@ tags:
 1. **Broker EDA** предполагает наличие сообщений и их обработчиков. Обработчики независимые, их координация отсутствует.
 1. **Mediator EDA** помимо сообщений и обработчиков предполагает отдельную роль - *медиатор*, координирующий обработку сообщений. Все взаимодействие обработчиков ведется строго через медиатор, потому что он обладает знаниями о порядке операций, возможности их распараллеливания в ходе выполнения общего *workflow*. Наличие координатора облегчает реализацию поведения похожего на транзакции, обработку ошибок и понимание момента завершения workflow. Но при этом повышается [[Coupling]] и размер [[Architecture quantum]].
 
-## Достоинства
+## Достоинства [[Designing Data-Intensive Applications book]]. Chapter 4.
 
+1. очередь можно использовать как буфер на случай медленного или отказавшего получателя - повышает [[Reliability]] системы.
+1. в случае неудачной обработки сообщение возвращается в очередь и не теряется
+1. издатель отвязывается от получателя: как логически, так и физически отправителю не нужно знать IP получателя
+1. одно сообщение может быть направлено нескольким получателям
+
+### Не ведет к leaky abstraction
 В отличие от [[RPC]] такой способ интеграции не является [[Leaky abstraction]] и обеспечивает *location transparency*: с точки зрения использования не отличается в случае интеграции между модулями внутри монолита и между микросервисами. Этот факт используется в [[Actor model]].
 
 > Location transparency works better in the actor model than in RPC, because the actor model already assumes that messages may be lost, even within a single process. Although latency over the network is likely higher than within the same process, there is less of a fundamental mismatch between local and remote communication when using the actor model. [[Designing Data-Intensive Applications book]]. Chapter 4.
+
+
 
 ---
 

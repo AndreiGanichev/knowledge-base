@@ -39,3 +39,4 @@ tags:
 
 ### Ссылки:
 1. [[Four golden signals]]
+1. [[Evolvability]]
