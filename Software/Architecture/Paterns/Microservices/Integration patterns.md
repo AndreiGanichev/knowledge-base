@@ -14,3 +14,5 @@ tags:
 
 ### Ссылки:
 1. [[Async vs sync]]
+1. [Enterprise integration patterns book. Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/)
+1. Modular monolith: integration styles. Kamil Grzbek

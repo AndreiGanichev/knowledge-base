@@ -12,4 +12,5 @@ tags:
 1. link
 
 ### Ссылки:
-1. link
+1. [Shared database antipattern](https://microservices.io/patterns/data/shared-database.html)
+1. [[Integration patterns]]

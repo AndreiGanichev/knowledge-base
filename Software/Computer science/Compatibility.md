@@ -4,6 +4,13 @@ tags:
     - tag
 ---
 
+> Compatibility is a relationship between one process that encodes the data, and another process that decodes it. [[Designing Data-Intensive Applications book]]. Chapter 4. Models of Dataflow.
+
+Совместимость важна для разных видов приложений:
+1. **серверные** приложения могут поддерживать *rolling upgrade* и становится нормальным, что одновременно работают разные версии приложения.
+1. обновление **клиентских** приложений часто находится вне зоне влияния разработчиков(например мобильные приложения), а значит  с одним и тем же сервером работает множество версий клиента.
+
+
 # Виды
 
 ## Backward compatibility
@@ -16,7 +23,7 @@ tags:
 
 > Older code can read data that was written by newer code.[[Designing Data-Intensive Applications book]]. Chapter 4
 
-# Форматы
+# Форматы сериализации и совместимость
 
 Требование совместимости в разной степени поддерживается для разных форматов сериализации.
 
@@ -36,3 +43,4 @@ tags:
 
 ### Ссылки:
 1. [[Serialization]]
+1. [[Джоэл о программировании]]. Как Microsoft проиграла войну API.
