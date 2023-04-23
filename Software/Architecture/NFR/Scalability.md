@@ -40,4 +40,4 @@ tags:
 ### Ссылки:
 1. [[Horizontal scaling]]#
 1. [[Vertical scaling]]#
-1. [[Scalability vs Performance]]]
+1. [[Scalability - Load - Performance]]]
