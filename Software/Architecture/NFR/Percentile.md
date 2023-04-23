@@ -4,7 +4,7 @@ tags:
     - tag
 ---
 
-### Основные значения для измерения *performance*
+### Основные значения для мониторинга [[Performance]]
 1. 50p
 1. 95p
 1. 99p
@@ -23,4 +23,3 @@ tags:
 
 ### Ссылки:
 1. https://en.wikipedia.org/wiki/Percentile
-1. [[Performance]]

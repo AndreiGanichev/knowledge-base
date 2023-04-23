@@ -35,15 +35,11 @@ Faults:
 Из менее надежной link можно получить более надежную:
 arbitrary --*TLS*--> fair-loss --*retry+deduplication*--> reliable
 
-## Fault tolerance
-
-**Fault tolerance** - способность системы как целое продолжать работу при наличии *faults*. Один из способов достижения - это *redundacy*, например репликация.
-
 ---
 
 ### Источники:
-1. (Kleppmann. Distributed Systems 2.3: System models)[https://youtu.be/y8f7ZG_UnGI]
-1. (Kleppmann. Distributed Systems 2.4: Fault tolerance)[https://youtu.be/43TDfUNsM3E]
+1. [Kleppmann. Distributed Systems 2.3: System models](https://youtu.be/y8f7ZG_UnGI)
+1. [Kleppmann. Distributed Systems 2.4: Fault tolerance](https://youtu.be/43TDfUNsM3E)
 
 ### Ссылки:
 1. [[Failure detection]]#

@@ -22,4 +22,4 @@ tags:
 1. [[Designing Data-Intensive Applications book]]
 
 ### Ссылки:
-1. #[[Performance]]
+1. #[[Load parameters]]
