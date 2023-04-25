@@ -1,0 +1,25 @@
+{
+	"Insert note template": {
+		"scope": "markdown",
+		"prefix": "template",
+		"body": [
+			"---",
+			"date: 2023-04-05",
+			"---",
+			"# Heading",
+			"",
+			"---",
+			"",
+			"## Источники",
+			"",
+			"1. link",
+			"",
+			"## Ссылки",
+			"",
+			"1. link",
+			""
+		],
+		"description": "Note template",
+		"isFileTemplate": true,
+	}
+}
