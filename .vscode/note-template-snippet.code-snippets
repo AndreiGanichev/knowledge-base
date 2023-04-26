@@ -4,7 +4,7 @@
 		"prefix": "template",
 		"body": [
 			"---",
-			"date: 2023-04-05",
+			"date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
 			"---",
 			"# $TM_FILENAME_BASE",
 			"",
