@@ -37,11 +37,10 @@ tags:
 
 ### Как может проявляться coupling
 
-> ...all the coupling characteristics of their application:
 1. classes
 1. package/namespace
 1. library and framework
-1. data schemas
+1. [[Database schema|data schemas]]
 1. transactional contexts
 
 #### Transactions

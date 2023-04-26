@@ -8,6 +8,12 @@ tags:
 
 > Most applications are built by layering one data model on top of another. For each layer, the key question is: how is it represented in terms of the next-lower layer?...each layer hides the complexity of the layers below it by providing a clean data model. [[Designing Data-Intensive Applications book]]. Chapter 2.
 
+## Слой доступа к данным
+
+[[Data models]]
+
+К этому слою относятся как БД, так и очереди и брокеры событий, но они предоставляют принципиально разные паттерны доступа.
+
 ---
 
 ## Источники
