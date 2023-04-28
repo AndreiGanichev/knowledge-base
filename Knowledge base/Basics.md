@@ -17,6 +17,10 @@ date: 2023-04-27
 
 1. [Шаблон Ивана Закревского](https://github.com/emacsway/dckms-template)
 
+## VS Code
+
+1. [ZK](https://github.com/mickael-menu/zk-vscode)
+1. [Memo](https://github.com/svsool/memo)
 
 ---
 
