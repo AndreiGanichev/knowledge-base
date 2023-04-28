@@ -3,17 +3,17 @@ date: 2022-12-17
 tags:
     - tag
 ---
+# Microservices
 
-### Достоинства микросервисов
+## Достоинства
 
 > The ability for developers to deploy one service without affecting any other service is one of the defining benefits of this architectural style.
 
-### Coupling
+## Coupling
 
 > Architects often call microservices a **“share nothing”** architecture. The primary advantage of this architecture style is no coupling at the technical architecture layer...The technical architecture is embedded within the domain parts...
 
 Для микросервисов первично разбиение именно по доменному признаку, естественное разбиение. А техническая архитектура уже инкапсулирована, а значит **нет причины для coupling между микросервисами на техническом уровне**. Это отражается в независимости выбора языка, фреймворка, архитектурного паттерна.
-
 
 Полностью избежать *coupling* между микросервисами не получится даже при правильной реализации микросервисов.
 
@@ -21,10 +21,12 @@ tags:
 
 ---
 
-### Источники:
+## Источники
+
 1. [[Building evolutionary architectures book]]. Architectural Coupling
 
-### Ссылки:
+## Ссылки
+
 1. [[Practices]]
 1. [[Duplication vs Coupling]]
 1. [[Architecture quantum]]

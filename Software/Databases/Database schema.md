@@ -9,6 +9,16 @@ date: 2023-04-27
 
 > Schema-on-read is similar to dynamic (runtime) type checking in programming languages, whereas schema-on-write is similar to static (compile-time) type checking.
 
+## Constraints
+
+Всегда нужно выбирать наиболее строгие ограничения, какие только возможны. Этот совет касается разных аспектов:
+
+1. ограничения на тип столбца
+1. ограничение на nullability столбца
+1. ограничение на уникальность данных
+
+Это необходимо для сохранения [[Compatibility]]: ослабить ограничения в дальнейшем проще, чем усилить(могут уже быть данные нарушающие более сильное ограничение)
+
 ---
 
 ## Источники

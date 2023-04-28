@@ -3,6 +3,7 @@ date: 2022-12-01
 tags:
     - tag
 ---
+# Irreversability
 
 > He saw agile methods, in manufacturing and software development, as a shift that seeks to contain complexity by **reducing irreversibility** — as opposed to tackling other complexity drivers. Martin Fawler. [Who needs architect](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf)
 
@@ -10,9 +11,11 @@ tags:
 
 ---
 
-### Источники:
+## Источники
+
 1. link
 
-### Ссылки:
+## Ссылки
+
 1. [[Architecture definitions]]
 1. [One-way and Two-way Door Decisions](https://shit.management/one-way-and-two-way-door-decisions/)

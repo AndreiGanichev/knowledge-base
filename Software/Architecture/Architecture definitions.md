@@ -3,6 +3,7 @@ date: 2022-11-30
 tags:
     - tag
 ---
+# Architecture definitions
 
 > System design... is inherently about **boundaries** - what's in, what's out, what spans, what moves between, and about tradeoffs. It reshapes what is outside, just as it shapes what is inside. Ruth Malan
 
@@ -16,9 +17,11 @@ tags:
 
 ---
 
-### Источники:
-1. https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf
+## Источники
 
-### Ссылки:
+1. [Who needs architect?](https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf)
+
+## Ссылки
+
 1. [[Complexity]]
 1. [[Language and Arch constraints]]

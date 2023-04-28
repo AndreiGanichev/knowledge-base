@@ -3,6 +3,7 @@ date: 2023-03-09
 tags:
     - tag
 ---
+# Primary key type
 
 1. автоматически генерируемый при вставке возрастающий *int* более выгодный, т.к. из него получается append-only [[Clustered index]]. Рандомный идентификатор, такой как ```System.Guid``` в .NET, плох тем, что при использовании B-Tree в качестве структуры хранения индекса придется делать больше перестроений, потому что новые идентификаторы будут попадать в середину дерева.
 1. int проще для восприятия человеком, короче получаются URLs
@@ -15,10 +16,12 @@ tags:
 
 ---
 
-### Источники:
+## Источники
+
 1. link
 
-### Ссылки:
+## Ссылки
+
 1. [Primary Keys: IDs versus GUIDs](https://blog.codinghorror.com/primary-keys-ids-versus-guids/)
 1. [To UUID or not to UUID ?](https://www.percona.com/blog/to-uuid-or-not-to-uuid/)
 1. [[UUID]]

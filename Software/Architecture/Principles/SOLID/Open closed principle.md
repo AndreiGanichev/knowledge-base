@@ -3,13 +3,14 @@ date: 2022-12-01
 tags:
     - tag
 ---
-
-
+# Open closed principle
 
 ---
 
-### Источники:
+## Источники
+
 1. link
 
-### Ссылки:
+## Ссылки
+
 1. [[Abstraction vs complexity]]

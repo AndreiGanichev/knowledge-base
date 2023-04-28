@@ -3,7 +3,6 @@ date: 2023-01-27
 tags:
     - tag
 ---
-
 # Evolutionary data
 
 > While it’s true that schemas change less frequently than code, database schemas still represent an abstraction of the real world.

@@ -3,6 +3,7 @@ date: 2022-12-18
 tags:
     - tag
 ---
+# Coupling
 
 Полностью избавиться от coupling невозможно. Авторы книги Building evolutionary architectures используют понятие **appropriate coupling**. *Appropriate* или нет решается исходя из тех изменений, которые должна поддерживать архитектура конкретного проекта. Это понятие перекликается с [[Common Closure principle]].
 
@@ -13,11 +14,9 @@ tags:
 При этом слоеная архитектура облегчает эволюцию технических аспектов. В этом случае изменения касаются только конкретного слоя. Другое дело, что естественными являются изменений именно бизнес требований. Это особенно актуально для Core [[Subdomain]].
 
 > No one perspective on architecture is “correct,” but rather a reflection on the goals developers build into their projects. If the focus is entirely on technical architecture, then making changes across that dimension is easier. However, if the domain perspective is ignored, then evolving across that dimension is no better than the Big Ball of Mud.
-
 > One of the major factors that impacts the ability to evolve an application at the architectural level is how *unintentionally coupled* each part of the system is.
 
-
-### Appropriate coupling from [[Building evolutionary architectures book]]
+## Appropriate coupling from [[Building evolutionary architectures book]]
 
 *Coupling* неизбежен, потому что нельзя создать систему в изоляции. Наша цель - повышать *internal coupling* и снижать *external coupling*. Термин *internal coupling* употребляется в [[Building evolutionary architectures book]] и, насколько я его понял, аналогичен [[Cohesion]].
 
@@ -35,7 +34,7 @@ tags:
 
 При этом ничего не мешает использовать слоеную архитектуру внутри микросервиса, просто она будет инкапсулирована внутри физических границ сервиса и не будет никак связана с технической архитектурой других сервисов.
 
-### Как может проявляться coupling
+## Как может проявляться coupling
 
 1. classes
 1. package/namespace
@@ -43,7 +42,7 @@ tags:
 1. [[Database schema|data schemas]]
 1. transactional contexts
 
-#### Transactions
+### Transactions
 
 > Transactions are a special form of coupling because transactional behavior doesn’t appear in traditional technical architecture-centric tools.
 
@@ -55,10 +54,12 @@ tags:
 
 ---
 
-### Источники:
+## Источники
+
 1. [[Building evolutionary architectures book]]
 
-### Ссылки:
+## Ссылки
+
 1. [[Architecture quantum]]
 1. [[Architecture dimensions vs DDD Subdomains]]
 1. [[Transaction]]

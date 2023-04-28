@@ -3,8 +3,10 @@ date: 2022-01-21
 tags:
     - tag
 ---
+# Architecture quantum
 
 Архитектурный квант - это минимальная единица деплоя, обеспечивающая полноценную часть функционала системы. Охватывает не только сам сервис, но и все необходимое для его полноценной работы:
+
 1. БД
 1. вспомогательные сервисы, такие как поисковые движки или отчеты
 
@@ -20,13 +22,14 @@ tags:
 
 > Architecture quantum differs from traditional thinking about [[Cohesion]] by encompassing dependent components like databases.
 
-
 ---
 
-### Источники:
+## Источники
+
 1. [[Building evolutionary architectures book]]
 
-### Ссылки:
+## Ссылки
+
 1. #[[Evolutionary architecture]]
 1. [[Modularity]]
 1. [[Microservice size]]

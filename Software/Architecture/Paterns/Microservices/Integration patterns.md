@@ -3,16 +3,19 @@ date: 2023-04-15
 tags:
     - tag
 ---
+# Integration patters
 
 [[RPC]]
 [[Software/Architecture/Paterns/Event Driven/Basics]]
 
 ---
 
-### Источники:
+## Источники
+
 1. link
 
-### Ссылки:
+## Ссылки
+
 1. [[Async vs sync]]
 1. [Enterprise integration patterns book. Gregor Hohpe](https://www.enterpriseintegrationpatterns.com/)
 1. Modular monolith: integration styles. Kamil Grzbek

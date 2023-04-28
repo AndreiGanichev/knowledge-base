@@ -8,6 +8,8 @@ tags:
 
 > Most applications are built by layering one data model on top of another. For each layer, the key question is: how is it represented in terms of the next-lower layer?...each layer hides the complexity of the layers below it by providing a clean data model. [[Designing Data-Intensive Applications book]]. Chapter 2.
 
+Т.о. каждый слой должен формировать [[Abstraction|абстракцию]].
+
 ## Слой доступа к данным
 
 [[Data models]]

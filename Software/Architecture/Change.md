@@ -3,8 +3,9 @@ date: 2022-05-28
 tags:
     - tag
 ---
+# Change
 
-### Ford, Parson, Kua. Building evolutionary architectures.
+## [[Building evolutionary architectures book]]
 
 > If ease of change is a bedrock principle of the arcitecture, then change is no longer difficult. Ford, Parson, Kua. Building evolutionary architectures.
 
@@ -14,15 +15,14 @@ tags:
 
 *Evolvability* архитектуры тем выше, чем большие изменения(тип изменений, их объем) она позволяет осуществить, оставаясь при этом в рамках целевых показателей по важным архитектурным измерениям(контролируется фф)
 
-
-
-
 > Эффективные проекты контролируют изменения; неэффективные проекты находятся под контролем изменений. Стив Макконелл. Остаться в живых.
 
 ---
 
-### Источники:
+## Источники
+
 1. link
 
-### Ссылки:
+## Ссылки
+
 1. [[Abstraction vs Complexity]]

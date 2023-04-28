@@ -3,6 +3,7 @@ date: 2023-02-28
 tags:
     - tag
 ---
+# Behavior vs Data dichotomy
 
 ## ООП
 
@@ -28,9 +29,11 @@ tags:
 
 ---
 
-### Источники:
+## Источники
+
 1. link
 
-### Ссылки:
+## Ссылки
+
 1. [Closures And Objects Are Equivalent](http://wiki.c2.com/?ClosuresAndObjectsAreEquivalent)
 1. [SOLID: the next step is Functional](https://blog.ploeh.dk/2014/03/10/solid-the-next-step-is-functional/)
