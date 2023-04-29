@@ -19,8 +19,16 @@ date: 2023-04-27
 
 ## VS Code
 
+### WikiLinks
+
+1. [Markdown Memo](https://github.com/svsool/memo)
+1. [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode)
+
+### Дополнительные
+
+1. [Markdown all in one](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+1. [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
 1. [ZK](https://github.com/mickael-menu/zk-vscode)
-1. [Memo](https://github.com/svsool/memo)
 
 ---
 
