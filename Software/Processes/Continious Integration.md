@@ -11,7 +11,7 @@ tags:
 
 ## Источники
 
-1. [[Building evolutionary architectures book]]
+1. [[Building evolutionary architectures book]]. Chapter 3.
 
 ## Ссылки
 

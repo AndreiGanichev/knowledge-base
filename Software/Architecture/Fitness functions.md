@@ -5,6 +5,12 @@ tags:
 ---
 # Fitness functions
 
+> Architects design architectures, but then expose them to the messy real world of *implementing* things atop the architecture.
+
+ФФ обеспечивают требование, что изменения должны быть не только *incremental*, но и *guided*.
+
+> Without guidance, evolutionary architecture becomes simply a reactionary architecture.
+
 Существуют разные способы проверки на соответствие нефунекциональным требованиям(метрики, тесты, ручные проверки, практики). Концепция ФФ позволяет унифицировать разные виды проверок и воспринимать их как **единый мехнизм** соответствия архитектуры нефункциональным требованиям.
 
 ## Типы
@@ -19,7 +25,7 @@ tags:
 
 > Fitness functions can have any owner, including shared ownership. ...the application team may own the directionality(*прим. направление зависимостей между слоями*) fitness function because it is a particular concern for that project. In the same deployment pipeline, fitness functions common across multiple projects may be owned by the security team. In general, the definition and maintenance of fitness functions is a **shared responsibility between architects, developers, and any other role concerned with maintaining architectural integrity**.
 
-Мартин Фаулер описывает роль архитектура как гида(*guide*), который *mentor the development team*. Одним из инструментов выполнения такой функции менторинга могут быть фф.
+Мартин Фаулер описывает роль [[Architect]] как гида(*guide*), который *mentor the development team*. Одним из инструментов выполнения такой функции менторинга могут быть фф.
 
 ---
 
@@ -29,4 +35,4 @@ tags:
 
 ## Ссылки
 
-1. [[Architect]]
+1. #[[Evolutionary architecture]]
