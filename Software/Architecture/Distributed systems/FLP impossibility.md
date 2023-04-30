@@ -3,13 +3,14 @@ date: 2022-05-28
 tags:
     - tag
 ---
-
-note
+# FLP impossibility
 
 ---
 
-### Источники:
+## Источники
+
 1. link
 
-### Ссылки:
+## Ссылки
+
 1. [[Async vs sync]]

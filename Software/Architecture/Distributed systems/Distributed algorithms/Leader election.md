@@ -67,5 +67,5 @@ date: 2022-07-04
 
 ## Ссылки
 
-1. #[[Software/Architecture/Distributed systems/Distributed algorithms/Basics]]
+1. #[[Distributed algorithms basics]]
 1. [[Kafka design]]
