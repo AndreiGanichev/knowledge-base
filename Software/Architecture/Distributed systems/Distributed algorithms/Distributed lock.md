@@ -1,11 +1,13 @@
 ---
 date: 2022-07-07
 ---
+# Distributed lock
 
 **Liveness:** блокировка освобождается(отсутствует dead lock)
 **Safety**: только один процесс удерживает блокировку в конкретный момент времени
 
 ---
 
-### Ссылки:
-1. [[Software/Architecture/Software architecture/DDD/Basics]]
+## Ссылки
+
+1. [[Software/Architecture/Distributed systems/Distributed algorithms/Basics]]

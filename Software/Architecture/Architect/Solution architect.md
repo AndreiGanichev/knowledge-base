@@ -4,7 +4,7 @@ tags:
     - tag
 ---
 
-** Solution architect
+# Solution architect
 
 > A solution is an answer to a business problem that may or may not include a technology component.
 
@@ -12,10 +12,10 @@ tags:
 
 ---
 
-### Источники:
+## Источники
 
 1. [Дмитрий Таболич. Думай как архитектор: майндшифт инженера](https://dotnext.ru/talks/2984aa7301d84a81864608267d5d1f43/)
 
-### Ссылки:
+## Ссылки
 
 1. link
