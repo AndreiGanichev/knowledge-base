@@ -13,12 +13,12 @@ tags:
 
 При этом слоеная архитектура облегчает эволюцию технических аспектов. В этом случае изменения касаются только конкретного слоя. Другое дело, что естественными являются изменений именно бизнес требований. Это особенно актуально для Core [[Subdomain]].
 
-> No one perspective on architecture is “correct,” but rather a reflection on the goals developers build into their projects. If the focus is entirely on technical architecture, then making changes across that dimension is easier. However, if the domain perspective is ignored, then evolving across that dimension is no better than the Big Ball of Mud.
+> No one perspective on architecture is “correct,” but rather a reflection on the goals developers build into their projects. If the focus is entirely on technical architecture, then making changes across that dimension is easier. However, if the domain perspective is ignored, then evolving across that dimension is no better than the [[Big ball of mud]].
 > One of the major factors that impacts the ability to evolve an application at the architectural level is how *unintentionally coupled* each part of the system is.
 
 ## Appropriate coupling from [[Building evolutionary architectures book]]
 
-*Coupling* неизбежен, потому что нельзя создать систему в изоляции. Наша цель - повышать *internal coupling* и снижать *external coupling*. Термин *internal coupling* употребляется в [[Building evolutionary architectures book]] и, насколько я его понял, аналогичен [[Cohesion]].
+*Coupling* неизбежен, потому что нельзя создать систему в изоляции. Наша цель - повышать *internal coupling* и снижать *external coupling*. Термин *internal coupling* употребляется в [[Building evolutionary architectures book]] и, насколько я его понял, аналогичен [[Cohesion]]. Там же *appropriate coupled module* фактически приравнивается к *functionally cohesive module* ([[Building evolutionary architectures book]]. Chapter 4. Modular monolith. Appropriate coupling).
 
 > As in physics, four fundamental interactions exist in nature: gravitational, electromagnetic, strong, and weak. The strong nuclear force, which holds atoms (and therefore ordinary matter) together, is notable for its strength. Breaking it unleashes much of the power of nuclear fission. Similarly, some architectural components are extremely difficult to break into smaller pieces. Metaphorically, they exhibit strong nuclear force. One of the keys to building evolutionary architectures lies in determining **natural component granularity** and coupling bewteen components to fit the capabilities they want to support via the software architecture.
 
@@ -41,6 +41,8 @@ tags:
 1. library and framework
 1. [[Database schema|data schemas]]
 1. transactional contexts
+
+Здесь можно вспомнить об идее [[Architecture dimensions]], которая акцентирует внимание на разных аспектах архитектуры, а не только на технической архитектуре(паттерны, фреймворки, библиотеки). Данные - это тоже важнейшее измерение в архитектуре и coupling проявляется и в этом измерении тоже. Причем для анализа технической архитектуры существет большое кол-во инструементов и IDE могут помочь обнаружить проблемы, то coupling на уровне данных гораздо сложнее обнаружить и распутать(*untangle*).
 
 ### Transactions
 

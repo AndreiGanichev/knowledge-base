@@ -20,4 +20,5 @@ tags:
 
 1. [[Architecture quantum]]
 1. [[Coupling]]
-1. [[Encapsulation]]
+1. #[[Encapsulation]]
+1. [[Modular monolith]]#

@@ -1,7 +1,7 @@
 ---
 date: 2023-05-01
 ---
-# Encapsulation
+# Big ball of mud
 
 ---
 
@@ -11,4 +11,4 @@ date: 2023-05-01
 
 ## Ссылки
 
-1. [[Modularity]]#
+1. link
