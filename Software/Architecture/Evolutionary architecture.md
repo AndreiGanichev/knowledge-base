@@ -7,6 +7,10 @@ tags:
 
 > To build an evolvable system, architects must think about how the system might evolve across all the important dimensions.
 
+## Architecture dimensions
+
+> Before trying to build an evolutionary architecture, make sure developers can evolve the data as well (см. [[Evolutionary data]]).
+
 An evolutionary architecture consists of three primary aspects: incremental change, fitness functions, and appropriate coupling.
 
 ## Incremental change

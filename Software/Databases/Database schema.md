@@ -9,6 +9,13 @@ date: 2023-04-27
 
 > Schema-on-read is similar to dynamic (runtime) type checking in programming languages, whereas schema-on-write is similar to static (compile-time) type checking.
 
+## Evolvability
+
+> The database can evolve right alongside the architecture as long as developers apply proper engineering practices such as continuous integration, source control, and so on.
+
+> Developers must treat changes to database structure the same way they treat source code: tested, versioned, and incremental.
+[[Building evolutionary architectures book]]. Chapter 5.
+
 ## Constraints
 
 Всегда нужно выбирать наиболее строгие ограничения, какие только возможны. Этот совет касается разных аспектов:
