@@ -24,6 +24,10 @@ date: 2023-04-27
 1. [Markdown Memo](https://github.com/svsool/memo)
 1. [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode)
 
+### Spaced repetition
+
+1. [Anki for VS Code](https://marketplace.visualstudio.com/items?itemName=jasew.anki)
+
 ### Дополнительные
 
 1. [Markdown all in one](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)

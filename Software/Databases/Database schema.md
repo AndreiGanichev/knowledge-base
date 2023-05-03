@@ -16,6 +16,8 @@ date: 2023-04-27
 > Developers must treat changes to database structure the same way they treat source code: tested, versioned, and incremental.
 [[Building evolutionary architectures book]]. Chapter 5.
 
+Одним из способов достижения выше описанных целей является использование [[Database migrations]]#.
+
 ## Constraints
 
 Всегда нужно выбирать наиболее строгие ограничения, какие только возможны. Этот совет касается разных аспектов:

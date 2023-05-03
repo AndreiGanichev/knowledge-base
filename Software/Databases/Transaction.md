@@ -14,6 +14,10 @@ tags:
 
 > A transaction needn’t necessarily have ACID properties. Transaction processing just means allowing clients to make low-latency reads and writes— as **opposed to batch processing jobs**, which only run periodically (for example, once per day).
 
+## Transactional boundaries
+
+> While systems often cannot avoid transactions, architects should try to **limit transactional contexts as much as possible** because they form a tight [[Coupling|coupling knot]], hampering the ability to change components or services without affecting others. More importantly, architects should take aspects like transactional boundaries into account when thinking about architectural changes(см. [[Evolutionary architecture]]).
+
 ---
 
 ## Источники

@@ -11,6 +11,8 @@ tags:
 
 > Дырявые абстракции означают, что кривая обучения у нас напоминает по форме клюшку: изучить 90% необходимого в повседневной работе материала можно за неделю. Но на освоение оставшихся 10% может уйти пара лет. Джоэль о программировании. Д.Спольски. Лорд Пальмерсон о программировании
 
+> But abstractions come at a cost because no abstraction is perfect — if it was, it wouldn’t be an abstraction, it would be the real thing. [[Building evolutionary architectures book]]. Chapter 7. Pitfall Leaky abstractions.
+
 ---
 
 ## Источники

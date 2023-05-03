@@ -36,6 +36,8 @@ tags:
 
 ## Как может проявляться coupling
 
+Истоник: [[Building evolutionary architectures book]]. Chapter 5. Two-phase commit transaction)
+
 1. classes
 1. package/namespace
 1. library and framework
