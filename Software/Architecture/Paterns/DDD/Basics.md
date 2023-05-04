@@ -3,6 +3,7 @@ date: 2022-05-28
 tags:
     - tag
 ---
+# DDD basics
 
 > "There is no sense in talking about the solution before we agree on problem, and no sense in talking about the implementation steps before we agree on the solution". Efrat Goldratt-Ashlag
 
@@ -17,6 +18,7 @@ tags:
 > Part of choosing an architecture lies in understanding where the problem and physical architecture come together. [[Building evolutionary architectures book]]
 
 Тогда получим ПО, которое будет:
+
 1. решать реальные бизнес проблемы
 1. получать оптимальное с точки зрения затрат решение
 1. получить максимально независимую структуру команд
@@ -24,8 +26,10 @@ tags:
 
 ---
 
-### Источники:
+## Источники
+
 1. Learning DDD. Introduction. Vladik Khononov
 
-### Ссылки:
+## Ссылки
+
 1. link

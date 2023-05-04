@@ -9,11 +9,13 @@ tags:
 
 > Architects aren’t immune to the syndrome, which manifests in choosing inappropriate but buzz-worthy architectural styles like microservices.
 
+[[Building evolutionary architectures book]]. Chapter 6. Migrating architecture
+
 ---
 
 ## Источники
 
-1. link
+1. 
 
 ## Ссылки
 
