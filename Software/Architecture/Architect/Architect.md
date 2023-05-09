@@ -13,6 +13,10 @@ tags:
 
 > Knowing how best to respond to change while keeping on your feet will be an essential skill for any software leader. [[Building evolutionary architectures book]]
 
+## Отличие архитектора и разработчика
+
+> Developers understand the benefits of everything and the tradeoffs of nothing! Rich Hickey, creator of Clojure
+
 ---
 
 ## Источники

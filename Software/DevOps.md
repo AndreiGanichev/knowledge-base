@@ -14,17 +14,33 @@ date: 2023-05-05
 
 ## Health/Ready check
 
+Разработчики должны реализовать эти методы исходы из внутренней логики своих сервисов. Например, не отдавать *ready*, пока не наполнились кэши.
+
 ## Immutable infrastructure
 
-Реализует [[Remove needless variability]]]
+Реализует [[Remove needless variability]] и проявляется по-разному:
+
+1. вместо обновления имеющейся инфраструктуры: виртуальные машины, докер образы - всегда создаем все заново. Тогда, в случае если что-то пойдет не так с новыми обновлениями всегда есть возможность откатить изменения. Связано с **Make decisions reversible**.
+
+Противоположностью этому подходу является ручная искусная конфигурация, что авторы [[Building evolutionary architectures book]] называют **snowflake**.
+
+> All changes to the system must occur via the source code, not by modifying the running operating system. Thus, the entire system is immutable from an operational standpoint — **once the system is bootstrapped, no other changes occur**.
+
+Принципом *all changes to the system must occur via the source code* можно описать и смысл [[Database migrations]]: все изменения схемы строго через миграции, хранящиеся в репозитории вместе с кодом, и автоматизированное применение, а не через "ручные" локальные скрипты.
+
+1. эквивалентность сред разработки между машинами разработчика и CI сервером. В этом случае запуск приложения локально и на тестовом/боевом стенде будет эквивалентен и удастся избежать проблемы *"а на моей машине работает"*. Плюс результаты тестов, запущенных локально и в deployment pipeline должны давать одинаковый результат. Помню проблему сравнения строк, в результате которой одни и те же тесты проходили на Windows, но падали на Linux.
+
+## [[Make decisions reversible]]
 
 ## [[Service template]]
+
+Позволяет автоматизировать рутину инфраструктурных задча(мониторинг, логирование) для продуктовых команд, а также дает механизм централизованного обновления фреймворков и важных библиотек во всех микросервисах.
 
 ---
 
 ## Источники
 
-1. link
+1. [[Building evolutionary architectures book]]. Chapter 6. Guidlines for building evolutionary architecture.
 
 ## Ссылки
 

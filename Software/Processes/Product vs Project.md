@@ -1,7 +1,5 @@
 ---
 date: 2022-12-10
-tags:
-    - agile
 ---
 # Product vs Project
 
@@ -26,4 +24,4 @@ tags:
 
 ## Ссылки
 
-1. link
+1. [[Agile]]

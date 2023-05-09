@@ -9,7 +9,7 @@ tags:
 
 ## Источники
 
-1. link
+1. [[Clean architecture book]]
 
 ## Ссылки
 
