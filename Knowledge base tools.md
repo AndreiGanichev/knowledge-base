@@ -8,13 +8,11 @@ date: 2023-04-27
 1. [Obsidian](https://obsidian.md/)
 1. [Roam](https://roamresearch.com/)
 
-## Инструменты
-
-1. [[Neuron Zettelkasten]](https://neuron.zettel.page/)
-1. [[Emanote]](https://github.com/srid/emanote)
 
 ## Шаблоны
 
+1. [[Neuron Zettelkasten]](https://neuron.zettel.page/)
+1. [[Emanote]](https://github.com/srid/emanote)
 1. [Шаблон Ивана Закревского](https://github.com/emacsway/dckms-template)
 
 ## VS Code
