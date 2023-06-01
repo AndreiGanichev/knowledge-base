@@ -18,8 +18,8 @@ date: 2023-04-27
 
 ### WikiLinks
 
-1. [Markdown Memo](https://github.com/svsool/memo)
-1. [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode)
+1. [Markdown Memo](https://github.com/svsool/memo) - backlinks
+1. [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode) - tag explorer, orphans, visualization
 
 ### Spaced repetition
 
@@ -39,4 +39,5 @@ date: 2023-04-27
 
 ## Ссылки
 
+1. [Zettelkasten](https://zettelkasten.de/)
 1. [Zettelkasten: как один немецкий учёный стал невероятно продуктивным](https://habr.com/ru/articles/508672/)
