@@ -21,7 +21,7 @@ tags:
 
 Как и в случае с [[Reliability]] и разными видами _faults_ нельзя сделать просто "масштабируемое решение", готовое к росту любого вида нагрузки. Мы должны предполагать как именно будет расти нагрузка на систему и быть готовым к этому виду нагрузки.
 
-> An architecture that scales well for a particular application is built around assumptions of which operations will be common and which will be rare — _the load parameters_.
+> An architecture that scales well for a particular application is built around assumptions of which operations will be common and which will be rare — *the load parameters*.
 
 Не существует готового решения, которое решало бы проблему масштабирования для всех приложений(_one size fit all_). Наоборот в каждом конкретном случае архитектор комбинирует general purpose решения, используя извстные паттерны, чтобы получить масштабируемую систему именно для его случая.
 
@@ -37,7 +37,7 @@ tags:
 
 ### Источники
 
-1. [[Designing Data-Intensive Applications book | Klepman]]
+1. [[Designing Data-Intensive Applications book]]
 
 ### Ссылки
 

@@ -5,7 +5,7 @@ date: 2022-12-17
 
 ## Duplication
 
-> Microservices form a shared nothing architecture — the goal is to decrease coupling as much as possible. Generally, **duplication is preferable to coupling**.
+> Microservices form a [[Shared nothing architecture]] — the goal is to decrease coupling as much as possible. Generally, **duplication is preferable to coupling**.
 
 [[Building evolutionary architectures book]]. Architectural Coupling
 
