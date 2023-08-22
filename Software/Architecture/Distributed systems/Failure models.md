@@ -54,3 +54,4 @@ arbitrary --*TLS*--> fair-loss --*retry+deduplication*--> reliable
 1. [[Replication]]
 1. [[Two generals problem]]
 1. [[Byzantine generals problem]]
+1. [[Failure possibility]]
