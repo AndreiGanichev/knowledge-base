@@ -59,3 +59,4 @@ SQLite has a similar concept and calls it *quickbalance*. When the entry is inse
 ## Ссылки
 
 1. [[Index]]
+1. [[Спринт 5. Сбалансированные дервеья]]
