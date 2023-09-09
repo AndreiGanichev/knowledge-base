@@ -1,3 +1,3 @@
 # Содержание
 
-[[Basics|Distributed systems]]
+[[Algorithms basics]]
