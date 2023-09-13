@@ -25,6 +25,7 @@ jobs:
           
       - name: Add files to wiki
         run: |
+          cd .
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
