@@ -21,6 +21,7 @@ jobs:
         src_branch: main
         dst_path: /.
         dst_branch: main
-        dst_repo_name: ${{github.repository}}
+        dst_repo_name: knowledge-base
+        dst_owner: AndreiGanichev
         dst_wiki: true
         clean: true
