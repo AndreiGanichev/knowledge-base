@@ -16,10 +16,10 @@ jobs:
     - name: Copy
       uses: andstor/copycat-action@v3
       with:
-        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        personal_token: ${{ secrets.WIKI_UPDATE }}
         src_path: /.
         dst_path: /.
         dst_owner: AndreiGanichev
-        dst_repo_name: ${{github.repository}}.wiki
+        dst_repo_name: ${{github.repository}}
         dst_wiki: true
         clean: true
