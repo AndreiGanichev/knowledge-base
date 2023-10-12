@@ -13,29 +13,15 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@v3   
-        with:
-            path: main
-            
-      - name: Checkout wiki code
-        uses: actions/checkout@v3
-        with:
-          repository: ${{github.repository}}.wiki
-          path: wiki
-          
-      - name: Add files to wiki
-        run: |
-          cd wiki
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Added notes"
-          
-      - name: Push changes to wiki repo
-        uses: ad-m/github-push-action@master
-        with:
-          directory: wiki
-          repository: ${{github.repository}}.wiki    # specify the wiki repo and push the update.
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Print result
-        run: echo Content published to wiki
+    - name: Copy
+      uses: andstor/copycat-action@v3
+      with:
+        personal_token: ${{ secrets.WIKI_UPDATE }}
+        src_path: /.
+        src_branch: main
+        dst_path: /.
+        dst_branch: main
+        dst_repo_name: knowledge-base
+        dst_owner: AndreiGanichev
+        dst_wiki: true
+        clean: true
