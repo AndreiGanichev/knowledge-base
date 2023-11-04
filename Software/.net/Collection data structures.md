@@ -24,3 +24,4 @@ date: 2023-08-26
 1. [MS docs](https://learn.microsoft.com/en-us/dotnet/standard/collections/)
 1. [[Спринт 4. Хэш таблицы]]
 1. [[Спринт 5. Деревья]]
+1. [[Threadsafe collections]]
