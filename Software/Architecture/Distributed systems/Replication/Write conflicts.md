@@ -8,7 +8,7 @@ date: 2023-08-13
 1. [[Multi leader replication]]
 1. [[Leaderless replication]]
 
-![Write conflict example](../../Images/Write%20conflicts.png) [[Designing Data-Intensive Applications book ]]. Chapter 5. Fig. 5-7.
+![Write conflict example](../Images/Write%20conflicts.png) [[Designing Data-Intensive Applications book ]]. Chapter 5. Fig. 5-7.
 
 ## Время обнаружения конфликта
 
