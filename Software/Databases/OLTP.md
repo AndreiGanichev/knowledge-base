@@ -18,4 +18,4 @@ tags:
 ## Ссылки
 
 1. [[Transaction]]
-1. [[OLAP]]
+1. [[OLTP vs OLAP]]
