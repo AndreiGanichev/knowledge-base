@@ -13,4 +13,4 @@ tags:
 
 ## Ссылки
 
-1. [[Async vs sync]]
+1. [[Latency model]]

@@ -51,6 +51,6 @@ tags:
 
 ## Ссылки
 
-1. [[Async vs sync]]
+1. [[Latency model]]
 1. [Clean Micro-service Architecture](https://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html)
 1. [Microservices and Jars](https://blog.cleancoder.com/uncle-bob/2014/09/19/MicroServicesAndJars.html)

@@ -26,4 +26,4 @@ tags:
 
 1. [[Architecture definitions]]
 1. [One-way and Two-way Door Decisions](https://shit.management/one-way-and-two-way-door-decisions/)
-1. [[DevOps]]
+1. [[Software/Ops/Basics]]

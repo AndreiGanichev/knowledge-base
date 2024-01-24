@@ -3,7 +3,7 @@ date: 2022-06-16
 tags:
     - tag
 ---
-# Distributed systems basics
+# Distributed algorithms basics
 
 ## Свойства распределенных алгоритмов
 

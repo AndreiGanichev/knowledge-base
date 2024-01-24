@@ -21,4 +21,4 @@ tags:
 
 ## Ссылки
 
-1. [[Abstraction]]
+1. #[[Abstraction]]
