@@ -10,4 +10,4 @@ date: 2022-07-07
 
 ## Ссылки
 
-1. [[Distributed algorithms basics]]
+1. [[Software/Architecture/Distributed systems/Distributed algorithms/Basics]]
