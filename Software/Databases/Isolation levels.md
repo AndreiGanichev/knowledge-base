@@ -2,10 +2,15 @@
 date: 2023-12-17
 ---
 # Isolation levels
+
 |               |               |
 |---------------|---------------|
 |READ UNCOMMITED|dirty reads    |
 |               |dirty writes  |
+
+## Serializability
+
+
 
 ---
 
