@@ -4,6 +4,8 @@ tags:
     - tag
 ---
 
+# Scalability - Load - Performance
+
 ## Определение [[Scalability]] решения на основе мониторинга [[Performance]]
 
 1. когда увеличиваем [[Load parameters]], как это влияет на *performane* системы?
@@ -12,7 +14,9 @@ tags:
 ---
 
 ### Источники:
+
 1. [[Designing Data-Intensive Applications book]]. Chapter 1. Scalability
 
 ### Ссылки:
+
 1. link

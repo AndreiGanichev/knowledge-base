@@ -16,4 +16,4 @@ Durability
 
 ## Ссылки
 
-1. link
+1. [[Consistency: CAP vs ACID]]
