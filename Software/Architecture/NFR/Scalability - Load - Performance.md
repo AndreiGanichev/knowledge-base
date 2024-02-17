@@ -13,10 +13,10 @@ tags:
 
 ---
 
-### Источники:
+### Источники
 
 1. [[Designing Data-Intensive Applications book]]. Chapter 1. Scalability
 
-### Ссылки:
+### Ссылки
 
 1. link
