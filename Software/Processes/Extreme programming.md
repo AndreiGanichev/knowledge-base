@@ -13,4 +13,5 @@ tags:
 
 ## Ссылки
 
-1. Kent Beck. XP explained 2nd edition.
+1. [[Extreme Programming Explained book]]
+1. [[Agile]]

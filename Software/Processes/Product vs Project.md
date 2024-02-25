@@ -20,7 +20,7 @@ date: 2022-12-10
 
 ## Источники
 
-1. The API Product Mindset
+1. [The API Product Mindset](https://cloud.google.com/files/apigee/apigee-api-product-mindset-ebook.pdf)
 
 ## Ссылки
 
