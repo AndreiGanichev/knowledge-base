@@ -24,7 +24,7 @@ date: 2024-02-01
 ![Linearizability](../Images/Linearizability.png)
 Источник: [1]
 
-Несмотря на то, что между полуением запроса и возвратом ответа проходит время, в случае линеаризуемости считается, что где-то в рамках этого промежутка существует момент (*linearizability point*), в который **атомарно** выполняется операция. Этом может быть как запись, так и чтение.
+Несмотря на то, что между получением запроса и возвратом ответа проходит время, в случае линеаризуемости считается, что где-то в рамках этого промежутка существует момент (*linearizability point*), в который **атомарно** выполняется операция. Этом может быть как запись, так и чтение.
 
 ## Области применения
 
@@ -47,9 +47,9 @@ date: 2024-02-01
 
 1. [[Single leader replication]] с синхронной репликацией может обеспечить линеаризуемость. Но опять же, использование *snapshot isolation* может нарушить линеаризуемость.
 1. [[Leaderless replication]] с использованием [[Quorum]] обеспечивает линеаризуемость только при условии синхронного [[Quorum|read repair]].
-1. [[Consensus]]. С помощью алгоритма консенсуса можно реализовать хранилище с гарантией линеаризуемости 👇.
+1. [[Consensus]]. С помощью алгоритма консенсуса можно реализовать хранилище с гарантией линеаризуемости 👇
 
-> The clients interact with the replicated state machine via commands. These commands are given to the consensus module, which determines if it is possible to commit the command to the replicated state machine and, if possible, does so. The state machine must be deterministic, so that when commands are committed the state machines remain identical. A fault-tolerant database is an example of one such application. Once a command has been committed, the consensus protocol guarantees that eventually the command will be committed on every live state machine and they will be committed in order. This provides linearisable semantics from the client, defined as each command from the client appearing to execute instantaneously, exactly once, at some point between its invocation and positive response. [3]
+> The clients interact with the replicated state machine via commands. These commands are given to the consensus module, which determines if it is possible to commit the command to the replicated state machine and, if possible, does so. The state machine must be deterministic, so that when commands are committed the state machines remain identical. A fault-tolerant database is an example of one such application. Once a command has been committed, the consensus protocol guarantees that eventually the command will be committed on every live state machine and they will be committed in order. **This provides linearisable semantics from the client**, defined as each command from the client appearing to execute instantaneously, exactly once, at some point between its invocation and positive response. [3]
 
 ## Linearizability and CPU
 

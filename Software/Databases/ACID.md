@@ -3,7 +3,7 @@ date: 2023-11-22
 ---
 # ACID
 
-Atomicity
+[[ACID Atomicity|Atomicity]]
 Consistency
 [[ACID Isolation|Isolation]]
 Durability
