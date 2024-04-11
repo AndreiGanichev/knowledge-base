@@ -13,9 +13,8 @@ tags:
 
 ## Источники
 
-1. link
+1. [[Clean architecture book]]
 
 ## Ссылки
 
 1. [[Architecture definitions]]
-1. Rober Martin. Clean architecture

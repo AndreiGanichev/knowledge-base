@@ -7,7 +7,7 @@ date: 2024-02-29
 
 Когда речь идет о broadcast алгоритмах, то выделяют отдельный middleware, который реализует алгоритм и ноды коммуницируют через него. Плюс разделяют факт *receive* и *deliver*. Receive - это когда по сети сообщение дошло от middleware на одной ноде, до middleware на другой. В этом моменте сообщение может быть буферизовано или положено во внутреннюю очередь, потому что согласно алгоритму его еще рано доставлять до получателя. А вот когда приходит очередь сообщения происходит deliver до получателя.
 
-![Total order broadcast architecture](./Images/Broadast%20algorithm%20architecture.png)
+![Total order broadcast architecture](./Images/Broadcast%20algorithm%20architecture.png)
 Источник:[1]
 
 ## Best effort
