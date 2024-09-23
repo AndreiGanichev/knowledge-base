@@ -6,7 +6,10 @@ date: 2023-12-17
 |               |               |
 |---------------|---------------|
 |READ UNCOMMITED|dirty reads    |
-|               |dirty writes  |
+|               |dirty writes   |
+|---------------|---------------|
+|REPEATABLE READ|read skew      |
+|               ||
 
 ## Serializability
 

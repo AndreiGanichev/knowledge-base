@@ -7,7 +7,6 @@ tags:
 
 В MySql есть синтаксис, позволяющий взять блокировку на таблицу целиком, но сама СУБД старается использовать только блокировки конкретных записей(row level lock), это называется *intention lock*.
 
-
 ## Виды
 
 1. *exclusive*(X) - можно называть блокировкой *на запись*: `SELECT ... FOR UPDATE`
@@ -63,13 +62,15 @@ SELECT c1 FROM t WHERE c1 BETWEEN 10 and 20 FOR UPDATE;
 
 > their only purpose is to **prevent other transactions from inserting to the gap**
 
+Насколько я понял блокировка на update существующих записей реализуется через record lock, потому что есть куда "повесить" блокировку. А gap lock позволяет заблокировать то, чего еще нет.
+
 Этим объясняются особенности gap lock по сравнению с record lock:
 
 1. допускается одновременное взятие блокировки на один и тот же диапазон разными транзакциями
 1. нет разницы между X и S gap lock
 1. gap lock не используется для запросов, которые блокируют используя для этого уникальный индекс для поиска по уникальному значению
 
-Gap locking is not needed for statements that lock rows using a unique index to search for a unique row. For example, if the id column has a unique index, the following statement uses only an index-record lock for the row having id value 100 and it does not matter whether other sessions insert rows in the preceding gap:
+Gap locking is not needed for statements that lock rows using a unique index to search for a unique row. For example, if the ```id``` column has a unique index, the following statement uses only an index-record lock for the row having id value 100 and it does not matter whether other sessions insert rows in the preceding gap:
 
 ```sql
 SELECT * FROM child WHERE id = 100;
@@ -78,16 +79,6 @@ SELECT * FROM child WHERE id = 100;
 If id is not indexed or has a nonunique index, the statement *does lock* the *preceding gap*. То есть, если в индексе были значения 90, 95, 100, 120, то заблокирован будет промежуток `(95, 100]`
 
 > Gap locks are part of the tradeoff between performance and concurrency, and are used in some transaction isolation levels and not others.
-
-```sql
-(negative infinity, 10]
-(10, 11]
-(11, 13]
-(13, 20]
-(20, positive infinity)
-```
-
-> InnoDB uses next-key locks for searches and index scans, which prevents [[ACID Isolation|phantom]] rows
 
 Допустим в таблице child есть значения с id = 90 и 102.
 
@@ -117,7 +108,17 @@ Gap locks не используются для поиска и сканиров�
 
 Это комбинация record lock + gap lock на предыдущий(до *next key* в индексе) промежуток в индексе.
 
+> InnoDB uses next-key locks for searches and index scans, which prevents [[ACID Isolation|phantom]] rows
+
 Suppose that an index contains the values 10, 11, 13, and 20. The possible next-key locks for this index cover the following intervals:
+
+```sql
+(negative infinity, 10]
+(10, 11]
+(11, 13]
+(13, 20]
+(20, positive infinity)
+```
 
 ---
 
