@@ -32,5 +32,5 @@ date: 2024-07-06
 ## Ссылки
 
 1. [Troubleshooting Common MySQL Performance Issues](https://www.percona.com/blog/troubleshooting-common-mysql-performance-issues/)
-1. [MySQL Performance Tuning 101: Key Tips to Improve MySQL Database Performance](https://www.percona.com/blog/mysql-101-parameters-to-tune-for-mysql-performance/)
+1. [MySQL Performance Tuning: Maximizing Database Efficiency and Speed](https://www.percona.com/blog/mysql-101-parameters-to-tune-for-mysql-performance/)
 1. [Reducing High CPU on MySQL: a Case Study](https://www.percona.com/blog/reducing-high-cpu-on-mysql-a-case-study/)
