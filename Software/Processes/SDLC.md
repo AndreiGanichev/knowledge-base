@@ -37,4 +37,4 @@ date: 2024-02-22
 
 ## Ссылки
 
-1. link
+1. [Краткий справочник SDLC](https://dckms.github.io/system-architecture/emacsway/it/sdlc/sdlc-reference.html)
