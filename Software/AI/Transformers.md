@@ -23,6 +23,10 @@ Embedding - это вектор(массив) из N чисел, который 
 
 ## Transformer block
 
+> These form the bulk of any GPT model and are repeated a number of times, with the output of one block feeding into the next, continuing the residual pathway. As is common in deep learning, it's hard to say exactly what each of these layers is doing, but we have some general ideas: the earlier layers tend to focus on learning lower-level features and patterns, while the later layers learn to recognize and understand higher-level abstractions and relationships. In the context of natural language processing, the lower layers might learn grammar, syntax, and simple word associations, while the higher layers might capture more complex semantic relationships, discourse structures, and context-dependent meaning.[1]
+
+В GPT-3 данные последовательно проходят 96 transormer blocks.[6]
+
 ### Normalization
 
 Призвана повысить эффективность обучения модели. Значения матрицы по итогам вычислений могут получаться достаточно большими. Нормализация заключается к приведению значений матрицы в диапазон [-1, 1]. Нормализация выполняется перед self attention и mlp.
@@ -43,6 +47,18 @@ Embedding - это вектор(массив) из N чисел, который 
 
 > This increases the model’s capacity to model complex patterns in the input sequence that require **paying attention to different patterns at once**.
 
+Например в GPT-3 в каждом Transformer block 96 голов внимания.
+
+#### Relevance scoring
+
+На этом шаге для данного токена определяется насколько каждый из предыдущих токенов *attend to*(оказывает влияние на смысл) данного.
+
+> The relevance scoring step of attention is conducted by multiplying the **query vector** of the current position with the **keys matrix** [2]
+
+#### Combining information
+
+На предыдущем шаге для данного токена определили степень влияния на него всех предыдущих токенов. Теперь надо определить как именно надо изменить embedding данного токена, чтобы он "впитал" в себя дополнительную информацию из других токенов. И сделать это с учетом важности каждого предыдущего токена, полученной на предыдущем шаге. Это делается с использованием V матрицы.
+
 Для увеличения производительности результаты вычисления K, V векторов могут кэшироваться, потому что при продвижении по тексту можно переиспользовать векторы для тех словы, которые уже обрабатывались на предыдущих шагах.
 
 Другой оптимизацией является переиспользование K,V,Q матриц:
@@ -51,11 +67,15 @@ Embedding - это вектор(массив) из N чисел, который 
 1. multi query - K, V одни на все heads, а Q в каждой head своя
 1. grouped query - K, V переиспользуются группой heads, Q для каждой head своя
 
-### Feed-forward neural network
+#### Проблема размерности attention matrix
+
+Механизм внимания оценивает связь между словами в обрабатываемом тексте, длина этого текста - это *context length*. Следовательно размерность матрицы внимания равна квадрату длины контекста. Поэтому заложеная в трансформере размерность матрицы внимания ограничивает длину контекста, которую модель "может удержать во внимании". Для решения этой проблемы есть разные подходы, например *sparse attention*.
+
+### Feed-forward neural network(FFN)
 
 Реализована в виде multilevel perceptron (mlp).
 
-> These form the bulk of any GPT model and are repeated a number of times, with the output of one block feeding into the next, continuing the residual pathway. As is common in deep learning, it's hard to say exactly what each of these layers is doing, but we have some general ideas: the earlier layers tend to focus on learning lower-level features and patterns, while the later layers learn to recognize and understand higher-level abstractions and relationships. In the context of natural language processing, the lower layers might learn grammar, syntax, and simple word associations, while the higher layers might capture more complex semantic relationships, discourse structures, and context-dependent meaning.[1]
+Именно в этих составляющих блоков трансформера сосредоточено большинство параметров(весов). Согласно [6] на этом этапе вектор, который изначально соответствал токену обогащается фактами. Например на входе трансформера была фраза "Каким спортом занимался Майкл Джордан?". Сначала механизм снимания дополнит эмбединг токена Джордан знаниями, что имя Майкл. А FFN добавит к этому вектору знания, что Майкл Джордан - это баскетболист.
 
 ## LLM head
 
@@ -68,6 +88,8 @@ Embedding - это вектор(массив) из N чисел, который 
 Это функция, которая применяется к итоговой матрице.
 
 > converts a vector of real numbers (logits) into a probability distribution, ensuring **all outputs are between 0 and 1 and sum up to 1**, allowing them to represent probabilities for different classes, with the largest input getting the highest probability[3]
+
+![Softmax function](img/Softmax%20function.png) [4]
 
 ### Temperature
 
@@ -82,6 +104,9 @@ Embedding - это вектор(массив) из N чисел, который 
 1. [LLM Visualization](https://bbycroft.net/llm)
 2. [[Hands-On Large Language Models Language Understanding and Generation book]]
 3. [Softmax function](https://en.wikipedia.org/wiki/Softmax_function)
+4. [LLM и GPT - как работают большие языковые модели? Визуальное введение в трансформеры](https://youtu.be/wjZofJX0v4M?si=QbLJpugSLvsQe76N)
+5. [Визуализация внимания, сердце трансформера](https://youtu.be/eMlx5fFNoYc?si=nKmeUQ_6Bi5q_eL-&t=762)
+6. [Как LLM могут хранить факты](https://youtu.be/9-Jl0dxWQs8?si=GTxBQSJr3ABXkj2H)
 
 ## Ссылки
 
